@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <!-- External css link is not working -->
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <style>
+        
+        body {
+            background-color: #dbebfc;
+            color: #333333;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 0 16px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin-top: 120px;
+        }
+        .word{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .box {
+            width: 100%;
+            height: 35vh;
+            background-color:#e0e0e0;
+            margin: 0;
+            border-radius: 10px;
+            box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .main-content {
+            flex-grow: 1;
+        }
+
+        footer {
+            color: #888;
+            border-top: 1px solid #eee;
+            margin-top: 16px;
+            padding: 16px 0;
+            margin-left: 10px;
+        }
+
+        header {
+            margin-top: 16px;
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            text-align: -webkit-center;
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        header a {
+            color: #aaa888;
+            margin-right: 16px;
+            text-decoration: none;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        button {
+            cursor: pointer;
+            border: 1px solid #888;
+            background: #888;
+            color: white;
+            padding: 8px;
+        }
+
+        form {
+            align-items: center;
+            text-align: -webkit-center; 
+            display: block;
+            margin-top: 40px;
+            margin-block-end: 1em;
+        }
+    </style>
+</head>
+
+<body >
+    <div class="box">
+        <h1>!!My Weather App!!</h1>
+        <form action="/" method="post">
+            <label for="cityInput" class="word">City Name: </label>
+            <input type="text" name="cityName" id="cityInput" placeholder="Enter the City Name" class="word">
+            <button type="submit" class="word">Go</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <p>Made with ❤️ by Kaveri Raut</p>
+</footer>
+
+</html>
