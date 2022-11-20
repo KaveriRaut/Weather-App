@@ -14,7 +14,7 @@ app.post("/",function(req,res){
     // console.log(req.body.cityName); //****to access user input 
     const query = req.body.cityName; //gives name of city that user entered //*****by using {body-parser} method we are able to take user input to display data
 
-    const apikey = "22376aecff362310f7a3ea931310b28c"
+    const apikey = "enter your api key here"
     const units = "metric"
     const url = "https://api.openweathermap.org/data/2.5/weather?q="+ query +"&units="+units+"&appid="+apikey;
 
