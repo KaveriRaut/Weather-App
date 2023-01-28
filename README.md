@@ -1,14 +1,24 @@
-# Weather-App
+# ⛅Weather-App⛅
 
 - Fetches Weather data for the city you wish to know the weather.
 - Uses NodeJS and ExpressJS for fetching, sending and processing data received from OpenWeatherMap Weather API.
 
-![11](https://user-images.githubusercontent.com/97447480/202904921-e30b0925-6708-4d8b-9926-df7acf3e6a7d.png)
+## 🛢Tech Stack Used : 
 
-![22](https://user-images.githubusercontent.com/97447480/202904927-ed0f9603-b73b-4e65-801b-b35839ac8e55.png)
+- HTML
+- CSS
+- Javascript
+- OpenWeather API
+- Node js
+- Express js
 
-![33](https://user-images.githubusercontent.com/97447480/202904983-7b0db16a-6d48-4377-8137-d11d6d2d0777.png)
+## ⚙Functionality : 
 
-![66](https://user-images.githubusercontent.com/97447480/202904931-5c15019b-df98-4075-852e-fe6265666a55.png)
+- users can search the data for city that user wish to know the weather.
+- uses NodeJs and ExpressJs for fetching, sending and processing data received from OpenWeatherMap Weather API.
 
-![55](https://user-images.githubusercontent.com/97447480/202904929-da00b1be-196e-47d7-a0fa-139a06a77354.png)
+## 📽Website Demo :
+
+<img width="960" alt="pic1" src="https://user-images.githubusercontent.com/97447480/215263193-1b3dce79-ca03-4daa-a566-21ebd35e97f2.png">
+<img width="960" alt="pic2" src="https://user-images.githubusercontent.com/97447480/215263200-6677873b-d363-46de-b5a3-8b157526a511.png">
+<img width="960" alt="pic3" src="https://user-images.githubusercontent.com/97447480/215263210-92d1170e-61ec-40b5-9dbb-d3d803208e10.png">
